@@ -1,0 +1,31 @@
+{
+  "name": "cloak",
+  "version": "1.0.0",
+  "description": "This is a weather application that can suggest what type of clothing to bring on your trip",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/williemaxt/cloak.git"
+  },
+  "keywords": [
+    "weather",
+    "app"
+  ],
+  "author": "William Thompson",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/williemaxt/cloak/issues"
+  },
+  "homepage": "https://github.com/williemaxt/cloak#readme",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "cors": "^2.8.5",
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "node-fetch": "^2.6.0",
+    "sqlite3": "^5.0.0"
+  }
+}
